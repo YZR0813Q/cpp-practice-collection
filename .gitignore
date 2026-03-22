@@ -39,3 +39,21 @@
 
 # debug information files
 *.dwo
+
+# 编辑器配置（VS Code/CLion 等）
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# CMake 构建目录
+build/
+cmake-build-*/
+out/
+
+# 系统/临时文件
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
